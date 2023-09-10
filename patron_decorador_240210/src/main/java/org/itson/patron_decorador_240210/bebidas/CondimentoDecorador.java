@@ -6,12 +6,13 @@ package org.itson.patron_decorador_240210.bebidas;
 
 /**
  *
- * @author hoshi
+ * @author Carmen Hernández Echeverría 240210
  */
 public class CondimentoDecorador extends Bebida{
     
     public Bebida bebida;
-	 @Override
+    
+    @Override
     public String getDescription() {
        return descripcion;
     }

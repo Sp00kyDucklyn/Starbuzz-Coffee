@@ -7,7 +7,7 @@ package org.itson.patron_decorador_240210.bebidas;
 
 /**
  *
- * @author hoshi
+ * @author Carmen Hernández Echeverría 240210
  */
 public class Principal {
 
@@ -15,8 +15,7 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-
+       
         Bebida bebida = new Expresso();
         System.out.println(bebida.getDescription() + " $" + bebida.costo());
 

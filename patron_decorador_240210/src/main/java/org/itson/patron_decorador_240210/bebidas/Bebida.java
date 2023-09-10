@@ -6,7 +6,7 @@ package org.itson.patron_decorador_240210.bebidas;
 
 /**
  *
- * @author hoshi
+ * @author Carmen Hernández Echeverría 240210
  */
 public class Bebida implements IBebida{
     
@@ -31,16 +31,5 @@ public class Bebida implements IBebida{
     public double costo() {
         return costo;
     }
-    
-    
-    
-//    private String descripcion;
-//
-//    public String getDescripcion() {
-//        return descripcion;
-//    }
-//    
-//    public float getCost(float costo){
-//        return costo;
-//    }
+   
 }
